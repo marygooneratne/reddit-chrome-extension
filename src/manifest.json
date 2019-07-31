@@ -1,0 +1,14 @@
+{
+  "name": "Old Reddit Redirect Extension",
+  "version": "1",
+  "description": "A Chrome Extension for my friend Will Herbst to redirect all external Reddit links to use the old version of Reddit.",
+  "permissions": ["webRequest", "webRequestBlocking", "<all_urls>", "storage", "declarativeContent"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "icons": {
+    "300": "icon.png"
+  },
+  "manifest_version": 2
+}
